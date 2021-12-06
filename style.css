@@ -1,0 +1,102 @@
+body{
+    
+}
+.nav_text{
+    margin-right: 50px;
+}
+.container{
+    margin-bottom: 50px;
+}
+.carosel_background{
+    background-image: url(images/bg-1.png), url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position-x: center, left;
+    background-position-y:center, bottom ;
+    background-size: auto, 150px;
+}
+.row h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left:100px ;
+    margin-bottom: 30px;
+}
+.carousel-item p{
+    font-size: 18px;
+    margin-left:100px;
+    margin-bottom: 30px;
+}
+.slider_button{
+    margin-left: 100px;
+}
+.Buy_now_button{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color:black ;
+    color: rgb(252, 242, 242);
+}
+.Buy_now_button:hover{
+    background-color: rgb(41, 22, 22);
+    box-shadow:lightgray 1px 1px 10px;
+}
+.phone_section{
+    margin-bottom: 10px;
+}
+.phone_section h5{
+    color:#FF9D00;
+    
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+}
+.card-body {
+    text-align: center;    
+}
+.card-body p{
+    margin-bottom: 20px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    margin: 20px 0px;
+}
+.section_header{
+    text-align: center;
+}
+
+.box_image{
+    padding: 50px;
+    margin: 10px;
+}
+.Categories_area{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.categori_image{
+    margin-top: 70px ;
+    box-shadow: 5px 5px 30px lightgray;
+    padding: 80px;
+    border-radius: 10px;
+}
+.subscribe{
+    height: 300px;
+    background-color:  #ffecea;
+}
+.subscribe h6{
+    color: gray;
+}
+.subscribe input{
+    margin-bottom: 10px;
+}
+
+footer h6{
+    font-size: 14px;
+    font-size: 300;
+    text-align: center;
+}
